@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "total_records": 20,
+    "valid_records": 17,
+    "invalid_records": 3,
+    "overall_sentiment_distribution": {
+      "Positive": 5,
+      "Neutral": 4,
+      "Negative": 8
+    }
+  },
+  "chart_statistics_by_topic": {
+    "Product": {
+      "total_mentions": 10,
+      "average_satisfaction_score": 3.2,
+      "sentiment_distribution": {
+        "Positive": 4,
+        "Neutral": 2,
+        "Negative": 4
+      },
+      "score_breakdown": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 4
+      }
+    },
+    "Delivery": {
+      "total_mentions": 7,
+      "average_satisfaction_score": 2.86,
+      "sentiment_distribution": {
+        "Positive": 2,
+        "Neutral": 2,
+        "Negative": 3
+      },
+      "score_breakdown": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 2
+      }
+    },
+    "Service": {
+      "total_mentions": 6,
+      "average_satisfaction_score": 2.17,
+      "sentiment_distribution": {
+        "Positive": 1,
+        "Neutral": 1,
+        "Negative": 4
+      },
+      "score_breakdown": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1
+      }
+    },
+    "System": {
+      "total_mentions": 5,
+      "average_satisfaction_score": 2.4,
+      "sentiment_distribution": {
+        "Positive": 1,
+        "Neutral": 1,
+        "Negative": 3
+      },
+      "score_breakdown": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "Feedback 01",
+      "status": "Valid",
+      "sentiment": "Positive",
+      "topics": [
+        "Product"
+      ],
+      "score": 5,
+      "summary": "Áo khoác chất vải dày dặn, đường may chắc chắn, form chuẩn"
+    },
+    {
+      "id": "Feedback 02",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "Delivery",
+        "Product"
+      ],
+      "score": 2,
+      "summary": "Giao hàng nhanh nhưng bình giữ nhiệt bị móp góc"
+    },
+    {
+      "id": "Feedback 03",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "System"
+      ],
+      "score": 1,
+      "summary": "Ứng dụng văng khi thanh toán ví điện tử làm mất mã giảm giá"
+    },
+    {
+      "id": "Feedback 04",
+      "status": "Valid",
+      "sentiment": "Neutral",
+      "topics": [
+        "Product",
+        "Delivery"
+      ],
+      "score": 3,
+      "summary": "Sản phẩm tạm ổn so với giá, giao hàng đúng dự kiến"
+    },
+    {
+      "id": "Feedback 05",
+      "status": "Valid",
+      "sentiment": "Positive",
+      "topics": [
+        "Service",
+        "Delivery",
+        "Product"
+      ],
+      "score": 5,
+      "summary": "Tư vấn nhiệt tình, đóng gói kỹ, shipper thân thiện, giày êm"
+    },
+    {
+      "id": "Feedback 06",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "Service"
+      ],
+      "score": 1,
+      "summary": "Phản hồi tin nhắn chậm, thái độ trả lời cộc lốc, thiếu tôn trọng"
+    },
+    {
+      "id": "Feedback 07",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "Delivery",
+        "Product"
+      ],
+      "score": 1,
+      "summary": "Giao hàng chậm một tuần và giao sai hàng thành cục gạch"
+    },
+    {
+      "id": "Feedback 08",
+      "status": "Valid",
+      "sentiment": "Neutral",
+      "topics": [
+        "System"
+      ],
+      "score": 3,
+      "summary": "Giao diện mới hơi khó tìm mục đơn mua lúc đầu nhưng dùng quen"
+    },
+    {
+      "id": "Feedback 09",
+      "status": "Invalid",
+      "sentiment": null,
+      "topics": [],
+      "score": null,
+      "summary": "Dữ liệu rác hoặc ký tự vô nghĩa"
+    },
+    {
+      "id": "Feedback 10",
+      "status": "Invalid",
+      "sentiment": null,
+      "topics": [],
+      "score": null,
+      "summary": "Dữ liệu trống hoặc chỉ chứa khoảng trắng"
+    },
+    {
+      "id": "Feedback 11",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "Product",
+        "Service"
+      ],
+      "score": 1,
+      "summary": "Nồi chiên không lên nguồn, tổng đài chậm trễ hỗ trợ đổi trả"
+    },
+    {
+      "id": "Feedback 12",
+      "status": "Valid",
+      "sentiment": "Positive",
+      "topics": [
+        "Delivery"
+      ],
+      "score": 5,
+      "summary": "Shipper thân thiện, giao hàng tận tay nguyên vẹn dù trời mưa"
+    },
+    {
+      "id": "Feedback 13",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "System",
+        "Service"
+      ],
+      "score": 1,
+      "summary": "Hệ thống tự hủy đơn không báo trước, CSKH đùn đẩy trách nhiệm"
+    },
+    {
+      "id": "Feedback 14",
+      "status": "Valid",
+      "sentiment": "Positive",
+      "topics": [
+        "System",
+        "Product"
+      ],
+      "score": 5,
+      "summary": "Tìm kiếm hình ảnh trên app nhạy, bàn phím cơ chính hãng"
+    },
+    {
+      "id": "Feedback 15",
+      "status": "Valid",
+      "sentiment": "Neutral",
+      "topics": [
+        "Service"
+      ],
+      "score": 3,
+      "summary": "Nhân viên hướng dẫn xuất hóa đơn đầy đủ, đang chờ kế toán gửi"
+    },
+    {
+      "id": "Feedback 16",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "Delivery"
+      ],
+      "score": 1,
+      "summary": "Shipper không gọi điện, tự xác nhận giao và quăng hàng ngoài cổng"
+    },
+    {
+      "id": "Feedback 17",
+      "status": "Valid",
+      "sentiment": "Positive",
+      "topics": [
+        "Product"
+      ],
+      "score": 5,
+      "summary": "Kem dưỡng ẩm thấm nhanh, không bết rít, làm dịu da tốt"
+    },
+    {
+      "id": "Feedback 18",
+      "status": "Valid",
+      "sentiment": "Neutral",
+      "topics": [
+        "Product",
+        "Delivery"
+      ],
+      "score": 3,
+      "summary": "Sách in đẹp nhưng vận chuyển ngâm hàng khiến giao trễ hai ngày"
+    },
+    {
+      "id": "Feedback 19",
+      "status": "Valid",
+      "sentiment": "Negative",
+      "topics": [
+        "System",
+        "Service",
+        "Product"
+      ],
+      "score": 2,
+      "summary": "App báo sai tồn kho, shop tự ý giao nhầm màu không hỏi trước"
+    },
+    {
+      "id": "Feedback 20",
+      "status": "Invalid",
+      "sentiment": null,
+      "topics": [],
+      "score": null,
+      "summary": "Dữ liệu không hợp lệ, chỉ chứa dấu chấm"
+    }
+  ]
+}
